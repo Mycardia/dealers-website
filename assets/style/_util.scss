@@ -1,0 +1,48 @@
+%flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%flex-basic {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+%shadow {
+  box-shadow: 0px 3px 6px -1px rgba(0, 0, 0, 0.35);
+}
+
+%truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.flex-center {
+  @extend %flex-center;
+}
+
+.flex-basic {
+  @extend %flex-basic;
+}
+
+.shadow {
+  @extend %shadow;
+}
+
+.truncate {
+  @extend %truncate;
+}
+
+.upper-case {
+  text-transform: uppercase;
+}
+.lower-case {
+  text-transform: lowercase;
+}
+.capitalize {
+  text-transform: capitalize;
+}

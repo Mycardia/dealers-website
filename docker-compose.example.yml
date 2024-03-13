@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  cardiadw:
+    build: .
+    container_name: cardiadw
+    restart: always
+    ports:
+      - '3000:3000'
+    networks:
+      - cardia-network
+
+networks:
+  cardia-network:
+    name: ${MAIN_APP_NETWORK:-mycardia_cardia-network}

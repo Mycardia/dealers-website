@@ -1,0 +1,16 @@
+.nuxt
+.vscode
+.nitro
+.cache
+.output
+.env
+.vite
+dist
+build-bundles
+node_modules
+tools/meta/*
+*.log*
+*-nogit.*
+*.nogit
+docker-compose.yml
+*.code-workspace 

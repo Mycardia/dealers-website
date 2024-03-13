@@ -1,0 +1,73 @@
+$brand-primary: #3374d2;
+$brand-primary-text: #fcfcfc;
+$text-color: #ffffff;
+$brand-primary-hover: #01337a;
+$brand-primary-dark: #3b4051; //main text color
+$brand-secondary-dark: #444444; //secondary text color
+$section-bg-light: #f0f0f0;
+$section-bg-dark: #707070;
+$review-slider-button: #d5d9dc;
+$rating-star-bg: #e8e013;
+$stat-counter-icon: #9b9b9b;
+$card-price-text: #adadad;
+$card-hr: #efefef;
+$card-image-bg: #f2f2f2;
+$card-border: #fbfbfb;
+$card-specs: #333333;
+$filter-layout: #000000;
+$page-background-light: #ffffff;
+$main-font: 'Mulish', sans-serif;
+$inner-page-background: #f5f5f5;
+$white-bg: #ffffff;
+$main-border-color: #efefef;
+$grey-text: $card-specs;
+$modal-header-bg: #f0f0f0;
+
+//Font weight
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
+
+%align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+//shadow
+%custom-shadow {
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.11);
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.11);
+}
+
+%truncate {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+:root {
+  /* need these variables in vue component's runtime */
+  --brand-primary: #{$brand-primary};
+  --brand-primary-hover-bg: #2b63b3;
+  --brand-primary-active-bg: #295da8;
+  --brand-primary-hover-border: #295da8;
+  --brand-primary-active-border: #26579e;
+  --theme-navbar-bg-color: #{$page-background-light};
+  --theme-navbar-text-color: #{$brand-primary-dark};
+  --theme-latest-cars-section-bg-color: #fbfbfb;
+  --theme-latest-cars-section-text-color:  #{$brand-primary-dark};
+  --theme-happy-customer-section-bg-color:#ffffff;
+  --theme-happy-customer-section-text-color:#000000;
+  --theme-our-advantages-section-bg-color: #ffffff;
+  --theme-our-advantages-section-text-color: #000000;
+  --theme-our-services-section-bg-color: #ffffff;
+}

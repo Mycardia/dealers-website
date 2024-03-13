@@ -1,0 +1,22 @@
+@import '../../node_modules/vue-multiselect/dist/vue-multiselect.css';
+
+
+.multiselect {
+  &.filter-option {
+    .multiselect__tags {
+      border: none !important;
+    }
+  }
+  .multiselect__option.multiselect__option--highlight,
+  .multiselect__option.multiselect__option--highlight ::after {
+    background-color: var(--bs-gray-300);
+    color: #000;
+  }
+  .multiselect__tag,
+  .multiselect__tag ::after,
+  .multiselect__option.multiselect__option--selected,
+  .multiselect__option.multiselect__option--selected ::after {
+    background-color: var(--brand-primary) !important;
+    color: $brand-primary-text;
+  }
+}

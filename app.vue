@@ -1,0 +1,11 @@
+<template>
+  <div>
+    <NuxtPage></NuxtPage>
+    <ClientOnly>
+      <HomeSellModal></HomeSellModal>
+      <SharedToaster></SharedToaster>
+      <DetailsInterestRequestModal></DetailsInterestRequestModal>
+    </ClientOnly>
+  </div>
+</template>
+<script></script>

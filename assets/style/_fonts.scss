@@ -1,0 +1,105 @@
+/* Set up Montserrat for old browsers,  bold  of regular and italic*/
+@supports not (font-variation-settings: normal) {
+  @font-face {
+    font-family: $main-font;
+    src: url('../fonts/Mulish/static/Mulish-ExtraLight.ttf');
+    font-weight: 200;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-Light.ttf');
+    font-weight: 300;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-Regular.ttf');
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-Medium.ttf');
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-SemiBold.ttf');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-Bold.ttf');
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-ExtraBold.ttf');
+    font-weight: 800;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('./../fonts/Mulish/static/Mulish-Black.ttf');
+    font-weight: 900;
+  }
+}
+
+/* Set up Montserrat for modern browsers, all weights */
+@supports (font-variation-settings: normal) {
+  @font-face {
+    font-family: $main-font;
+    src: url('../fonts/Mulish/Mulish-VariableFont_wght.ttf');
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: $main-font;
+    src: url('../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf');
+    font-weight: 100 1000;
+    font-stretch: 25% 151%;
+    font-style: italic;
+  }
+}
+
+.fw-thin {
+  font-weight: $font-weight-thin;
+}
+
+.fw-extra-light {
+  font-weight: $font-weight-extra-light;
+}
+
+.fw-light {
+  font-weight: $font-weight-light;
+}
+
+.fw-regular {
+  font-weight: $font-weight-regular;
+}
+
+.fw-medium {
+  font-weight: $font-weight-medium;
+}
+
+.fw-semi-bold {
+  font-weight: $font-weight-semi-bold;
+}
+
+.fw-bold {
+  font-weight: $font-weight-bold;
+}
+
+.fw-extra-bold {
+  font-weight: $font-weight-extra-bold;
+}
+
+.fw-black {
+  font-weight: $font-weight-black;
+}
