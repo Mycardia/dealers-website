@@ -29,6 +29,7 @@
     "@pinia/nuxt": "^0.4.7",
     "@popperjs/core": "^2.11.6",
     "@typescript-eslint/parser": "^5.57.0",
+    "aws-amplify": "^6.0.20",
     "basic-auth": "^2.0.1",
     "bootstrap": "^5.3.0-alpha1",
     "eslint-config-prettier": "^8.8.0",
@@ -39,11 +40,12 @@
     "pinia": "^2.0.32",
     "prettier": "^2.8.7",
     "tsscmp": "^1.0.6",
-    "typescript": "^5.0.3",
     "vue-multiselect": "^3.0.0-beta.1",
     "vue3-carousel": "^0.2.9"
   },
   "devDependencies": {
+    "@aws-amplify/backend": "^0.12.1",
+    "@aws-amplify/backend-cli": "^0.11.1",
     "@nuxt/eslint-config": "^0.1.1",
     "@nuxtjs/eslint-config-typescript": "^12.0.0",
     "@nuxtjs/i18n": "^8.0.0-beta.12",
@@ -54,11 +56,15 @@
     "@vueuse/core": "^10.4.1",
     "@vueuse/nuxt": "^10.4.1",
     "archiver": "^5.3.1",
+    "aws-cdk": "^2.132.1",
+    "aws-cdk-lib": "^2.132.1",
+    "constructs": "^10.3.0",
     "eslint": "^8.35.0",
     "eslint-plugin-unicorn": "^46.0.0",
     "nuxt": "^3.2.0",
     "nuxt-svgo": "^0.0.3",
-    "sass": "^1.58.1"
+    "sass": "^1.58.1",
+    "typescript": "^5.4.2"
   },
   "overrides": {
     "vue": "latest"

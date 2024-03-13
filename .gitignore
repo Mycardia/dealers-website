@@ -14,3 +14,7 @@ tools/meta/*
 *.nogit
 docker-compose.yml
 *.code-workspace 
+
+# amplify
+.amplify
+amplifyconfiguration*
